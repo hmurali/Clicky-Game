@@ -5,11 +5,14 @@
   "homepage": "http://hmurali.github.io/Clicky-Game",
   "dependencies": {
     "@material-ui/core": "^4.5.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
