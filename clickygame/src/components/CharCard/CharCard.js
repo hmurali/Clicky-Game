@@ -1,4 +1,4 @@
-import React from "./react";
+import React from "react";
 import "./CharCard.css";
 // import { url } from "inspector";
 
