@@ -3,9 +3,9 @@ import BottomNavigation from "@material-ui/core/BottomNavigation";
 import "./BottomNavMDC.css"
 
 const BottomNavMDC = props => (
-    <ButtomNavigation {...props}>
+    <BottomNavigation {...props}>
         {props.children}
-    </ButtomNavigation>
+    </BottomNavigation>
 )
 
 export default BottomNavMDC;
