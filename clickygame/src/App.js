@@ -7,7 +7,7 @@ import Alert from "./components/Alert";
 import NavBar from "./components/NavBar";
 import BottomNavMDC from "./components/BottomNavMDC";
 import characters from "./characters.json";
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   shuffleCharacters = () => {
-    this.setState(this.state.characters = this.shuffleArray(this.state.characters));
+    this.setState(this.shuffleArray(this.state.characters));
   }
 
   shuffleArray = (a) => {
@@ -46,11 +46,11 @@ class App extends Component {
     if(newState.pickedChars.includes(name)) {
       newState.alertMessage = `YOU ALREADY PICKED "${name.toUpperCase()}"!`;
       newState.pickedChars = [];
-      this.setState(this.state = newState)
+      this.setState(newState)
     } else {
       newState.pickedChars.push(name);
       newState.alertMessage = `GOOD CHOICE!`;
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
     cb(newState, this.alertWinner)
   }
@@ -58,7 +58,7 @@ class App extends Component {
   updateTopScore = (newState, cb) => {
     if(newState.pickedChars.length > newState.topScore) {
       newState.topScore++;
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
     cb(newState)
   }
@@ -67,7 +67,7 @@ class App extends Component {
     if(newState.pickedChars.length === 12) {
       newState.alertMessage = "CHAMPION!";
       newState.pickedChars = [];
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
   }
 
@@ -120,7 +120,7 @@ class App extends Component {
           ))}
         </GridMDC>
         <BottomNavMDC style={{ background: "#313133", marginTop: "17.5px", paddingTop: "15px", borderTop: "2.5px solid slategray" }}>
-          <a href="https://github.com/hmurali/Clicky-Game" target="_blank" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
+          <a href="https://github.com/hmurali/Clicky-Game" rel="noopener noreferrer" target="_blank" className="link" alt="clicky-game-github-link"><i className="fa fa-github fa-2x"></i></a>
         </BottomNavMDC>
 
       </div>
