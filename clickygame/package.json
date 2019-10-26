@@ -2,6 +2,7 @@
   "name": "clickygame",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hmurali.github.io/Clicky-Game",
   "dependencies": {
     "@material-ui/core": "^4.5.1",
     "react": "^16.10.2",
