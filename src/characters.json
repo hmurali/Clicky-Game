@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Varys",
+        "image": "../images/varys.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bran",
+        "image": "../images/bran.png"
+    },
+    {
+        "id": 3,
+        "name": "Littlefinger",
+        "image": "../images/littlefinger.gif"
+    },
+    {
+        "id": 4,
+        "name": "Jon Snow",
+        "image": "../images/jon.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cersei",
+        "image": "../images/cersei.png"
+    },
+    {
+        "id": 6,
+        "name": "Brienne",
+        "image": "../images/brienne.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Jaime",
+        "image": "../images/jaime.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Daenerys",
+        "image": "../images/daenerys.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Lady Melisandre",
+        "image": "../images/melisandre.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Jorah",
+        "image": "../images/jorah.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Sansa",
+        "image": "../images/sansa.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Sam",
+        "image": "../images/sam.jpg"
+    }
+]
